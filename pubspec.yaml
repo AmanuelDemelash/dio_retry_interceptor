@@ -1,6 +1,6 @@
 name: dio_retry_interceptor
 description: "A Dio interceptor that retries failed requests on network reconnection."
-version: 0.0.1
+version: 0.0.1+1
 homepage: https://github.com/AmanuelDemelash/dio_retry_interceptor
 repository: https://github.com/AmanuelDemelash/dio_retry_interceptor
 issue_tracker: https://github.com/AmanuelDemelash/dio_retry_interceptor/issues
@@ -14,8 +14,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  dio: ^5.0.0
-  connectivity_plus: ^5.0.0  
+  dio: ^5.8.0+1
+  connectivity_plus: ^6.1.4
 
 dev_dependencies:
   flutter_test:
